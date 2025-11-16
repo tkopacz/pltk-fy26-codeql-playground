@@ -46,6 +46,7 @@ public class PathTraversalVulnerabilities
             return File.ReadAllBytes(fullPath);
         }
         return Array.Empty<byte>();
+        //DODANY KOMENTARZ
     }
 
     /// <summary>
